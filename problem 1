@@ -1,0 +1,26 @@
+Function sum_of_distinct_elements(set2, set1):
+    sum = 0
+    for element in set1:
+        if element is not in set 2:
+            sum = element + sum
+    for element in set 2:
+        if element not in set1:
+            sum = element + sum
+    return sum;
+
+
+problem 2
+
+Function dot_product(v1, v2):
+    ps = 0
+    for x in v1:
+        for y in v2:
+            ps = ps + (x * y)
+    return ps
+
+function are_orthogonal(v1, v2):
+    dot_product_result = dot_product(v1, v2)
+    if dot_product_result == 0:
+        Return True
+    else:
+        return False
